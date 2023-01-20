@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Overpass';
+    
+}
+
+header {
+    background: rgb(254,134,110);
+    background: linear-gradient(121deg, rgba(254,134,110,1) 41%, rgba(255,93,96,1) 59%);
+    border-bottom-left-radius: 45px;
+    color: rgb(253, 253, 253);
+    position: relative;
+}
+
+.container_header {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header_menu {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.header_menu button {
+    background-color: white;
+    border-radius: 40px;
+    color: hsl(356, 100%, 66%);
+    font-weight: 600;
+    border:none;
+    padding: 10px 40px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0px 0px 1px 0px rgba(66, 66, 66, 0.5);
+}
+
+.header_menu button:hover{
+    background-color: rgb(255, 123, 134);
+    color: white;
+}
+
+.login {
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    font-weight: 600;
+}
+
+.logo img {
+    margin-left: 60px;
+}
+
+
+/******************* Barra menu **************/
+
+.menu {
+    max-width: 1440px;
+    margin: auto;
+    height: 100%;
+    margin-left: 30px;
+}
+
+nav {
+    height: 100%;
+    margin-right: 400px;
+}
+
+nav > ul{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+nav > ul > li{
+    height: 100%;
+    align-content: center;
+    list-style: none;
+    position: relative;
+    list-style-type: none;
+    padding: 0px 30px;
+}
+
+nav > ul > li > a{
+    width: 100%;
+    height: 100%;
+    
+    padding: 5px;
+    font-size: 14px;
+    color: antiquewhite;
+    transition: all 300ms ease;
+}
+
+nav > ul > li > a:hover{
+    transform: scale(1.1);
+    background-color: hsl(356, 100%, 66%);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+    color: black;
+    align-content: center;
+    margin-left: 3px;
+}
+
+nav ul li{
+    align-content: center;
+    align-items: center;
+}
+
+nav ul li ul{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    position: absolute;
+    top: 20px;
+    left: -30px;
+    padding: 14px 0px 14px 14px;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 10;
+    transition: all 300ms ease;
+    list-style-type: none;
+}
+
+nav ul li:hover ul{
+    visibility: visible;
+    opacity: 1;
+    top: 40px;
+}
+
+nav ul li ul a{
+    display: block;
+    padding: 0px 20px;
+    margin-left: px;
+    margin-top: px;
+    transition: all 300ms ease;
+    color: black;
+}
+
+nav ul li ul a:hover{
+    background-color:hsl(356, 100%, 66%);
+    color: white;
+    transform: scale(1.2);
+    padding-left: px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    
+}
+
+/***************** seccion menu **********/
+
+.seccion_menu{
+    max-width: 1440px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 80px;    
+}
+
+.seccion_menu h1{
+    font-weight: bold;
+    font-size: 65px;
+    margin: 0;
+    line-height: 50px;
+}
+
+.seccion_menu span{
+    font-size: 22px;
+    margin: 0;
+    font-weight: 200;
+}
+
+.buttons{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.buttons button:first-child{
+    background-color: white;
+    border-radius: 40px;
+    color: hsl(356, 100%, 66%);
+    font-weight: 600;
+    border:none;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0px 0px 3px 0px rgba(66, 66, 66, 0.5); 
+}
+
+.buttons button{
+    background-color:hsl(356, 100%, 66%);
+    border-radius: 40px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    border: 1px white solid;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0px 0px 3px 0px rgba(66, 66, 66, 0.5);
+    margin-left: 20px; 
+}
+
+.buttons button:hover:nth-child(2) {
+    color: hsl(356, 100%, 66%);
+    background-color: white;
+}
+
+.buttons button:hover{
+    background-color: rgb(255, 123, 134);
+    color: white;
+}
+
+
+/************** Seccion Editor Mobile **************/
+
