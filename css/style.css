@@ -6,25 +6,20 @@
     
 }
 
-.site-header {
+header {
     background-image: url(../images/bg-pattern-intro-desktop.svg);    
     background-position-x: 5%;
     background-position-y: 50%;
-    background-size: 140%;
+    background-size: 160%;
     background-repeat: no-repeat;
-    background-color:rgb(254,134,110) ;
-    
-    
+    color: white;
+    position: relative;
+    background-color:hsl(13, 100%, 72%);
+    border-bottom-left-radius: 100px;
+    height: 480px;
 }
 
-.home{
-    background: rgb(254,134,110);
-    	background: linear-gradient(121deg, rgba(254,134,110,1) 41%, rgba(255,93,96,1) 59%);
-    	border-bottom-left-radius: 45px;
-    	color: rgb(253, 253, 253);
-    
-    
-}
+.home{}
 
 .container_header {
     width: 100%;
@@ -42,6 +37,7 @@
 }
 
 .header_menu button {
+    height: 50px;
     background-color: white;
     border-radius: 40px;
     color: hsl(356, 100%, 66%);
@@ -50,7 +46,7 @@
     padding: 10px 40px;
     cursor: pointer;
     font-size: 16px;
-    box-shadow: 0px 0px 1px 0px rgba(66, 66, 66, 0.5);
+    /*box-shadow: 0px 0px 1px 0px rgba(66, 66, 66, 0.5);*/
 }
 
 .header_menu button:hover{
@@ -112,7 +108,7 @@ nav > ul > li > a{
 nav > ul > li > a:hover{
     transform: scale(1.1);
     background-color: hsl(356, 100%, 66%);
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+    /*box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);*/
     color: black;
     align-content: center;
     margin-left: 3px;
@@ -212,6 +208,7 @@ nav ul li ul a:hover{
 }
 
 .buttons button{
+    height: 50px;
     background-color:hsl(356, 100%, 66%);
     border-radius: 40px;
     color: hsl(0, 0%, 100%);
@@ -237,3 +234,31 @@ nav ul li ul a:hover{
 
 /************** Seccion Editor Mobile **************/
 
+.container{
+    max-width: 1440px;
+    margin: auto;
+    margin-left: 60px;
+}
+
+.content_main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.txt {
+    width: 50%;
+}
+
+.txt p{
+    font-size: 16px;
+    padding: 10px;
+}
+
+.img_desktop {
+    width: 50%;
+}
+
+.img_desktop img{
+    width: 100%;
+}
