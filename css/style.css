@@ -241,6 +241,8 @@ nav ul li ul a:hover{
 }
 
 .content_main{
+    max-width: 1440px;
+    height: 800px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -253,6 +255,12 @@ nav ul li ul a:hover{
 .txt p{
     font-size: 16px;
     padding: 10px;
+}
+
+.txt span{
+    font-weight: 600;
+    font-size: 22px;
+    padding-bottom: 10px;
 }
 
 .img_desktop {
