@@ -242,6 +242,7 @@ nav ul li ul a:hover{
 .container{
     max-width: 100%;
     margin: auto;
+    position: relative;
 }
 
 .content_main{
@@ -294,7 +295,6 @@ nav ul li ul a:hover{
     border-top-right-radius: 60px;
     border-bottom-left-radius: 60px;    
 }
-
 
 .img_phone img{
     width: 60%;
@@ -357,4 +357,13 @@ nav ul li ul a:hover{
 .content_footer a:hover{
     text-decoration: underline;
     color: hsl(356, 100%, 66%);
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: 120px;
+    width: 100%;
+    font-size: 23px;
 }
