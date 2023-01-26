@@ -59,8 +59,14 @@ header {
     font-weight: 600;
 }
 
+.login:hover{
+    text-decoration: underline;
+    color: white;
+    font-weight: 600;
+}
+
 .logo img {
-    margin-left: 60px;
+    margin:auto;
 }
 
 
@@ -261,11 +267,12 @@ nav ul li ul a:hover{
 
 .img_desktop {
     width: 50%;
+    
 }
 
 .img_desktop img{
     width: 100%;
-    margin-left: 120px;
+    margin: auto;
 }
 
 /*************************************************** Seccion Mobile Phones ******************************************/
@@ -274,27 +281,29 @@ nav ul li ul a:hover{
     display: flex;
     justify-content: space-between;
     max-width: 100%;
-    margin
-    height: 100px;
+    margin: auto;
+    height:260px;
     align-items: center;
-    background-color: rgb(61, 64, 97);
+    background-color: rgb(54, 56, 81);
     color: white;
     background-image: url(../images/bg-pattern-circles.svg);
     background-size: 60%;
     background-repeat: no-repeat;
     background-position-x: -180px;
-    background-position-y: -500px;
+    background-position-y: -450px;
     border-top-right-radius: 60px;
     border-bottom-left-radius: 60px;    
 }
 
+
 .img_phone img{
-    width: 50%;
+    width: 60%;
+    margin-left: 30px;
 }
 
 .img_phone{
     width: 50%;
-    margin: auto;
+    
 }
 
 .txt_section_Mobile span{
@@ -310,3 +319,42 @@ nav ul li ul a:hover{
 }
 
 /************************************ Seccion Portatil PC ******************************/
+
+.img_rev{
+    flex-direction: row-reverse;
+}
+
+.txt{
+    margin: auto;
+}
+
+/************************************ Seccion footer ************************************/
+
+.content_footer{
+    background-color: rgb(36, 36, 44);
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    text-decoration: none;
+    padding-top: 55px;
+    border-top-right-radius: 80px;
+}
+
+.content_footer li {
+    list-style-type: none;
+}
+
+.content_footer a{
+    color: white;
+    line-height: 3;
+}
+
+.content_footer ul > li:first-child{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.content_footer a:hover{
+    text-decoration: underline;
+    color: hsl(356, 100%, 66%);
+}
