@@ -19,7 +19,14 @@ header {
     height: 480px;
 }
 
-.home{}
+.log_type ul{
+    display: flex;
+    align-items: center;
+}
+
+.log_type a{
+    padding-right: 10px;
+}
 
 .container_header {
     width: 100%;
@@ -31,7 +38,7 @@ header {
     max-width: 1440px;
     margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 20px;
 }
@@ -55,7 +62,6 @@ header {
 
 .login {
     color: rgb(255, 255, 255);
-    padding: 30px;
     font-weight: 600;
 }
 
@@ -74,14 +80,15 @@ header {
 
 .menu {
     max-width: 1440px;
-    margin: auto;
     height: 100%;
     margin-left: 30px;
 }
 
 nav {
     height: 100%;
-    margin-right: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 nav > ul{
@@ -281,11 +288,10 @@ nav ul li ul a:hover{
 .content__main{
     display: flex;
     justify-content: space-between;
-    max-width: 100%;
+    max-width: 1440px;
     margin: auto;
     height:260px;
     align-items: center;
-    background-color: rgb(54, 56, 81);
     color: white;
     background-image: url(../images/bg-pattern-circles.svg);
     background-size: 60%;
@@ -294,6 +300,11 @@ nav ul li ul a:hover{
     background-position-y: -450px;
     border-top-right-radius: 60px;
     border-bottom-left-radius: 60px;    
+}
+
+.bg_mobile{
+    background-color: rgb(54, 56, 81);
+    width: 100%;
 }
 
 .img_phone img{
@@ -331,13 +342,19 @@ nav ul li ul a:hover{
 /************************************ Seccion footer ************************************/
 
 .content_footer{
-    background-color: rgb(36, 36, 44);
     display: flex;
     justify-content: space-around;
     height: 400px;
     text-decoration: none;
     padding-top: 55px;
     border-top-right-radius: 80px;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.bg_footer{
+    background-color: rgb(36, 36, 44);
+    width: 100%;
 }
 
 .content_footer li {
