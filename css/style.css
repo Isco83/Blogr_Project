@@ -283,6 +283,15 @@ nav ul li ul a:hover{
     margin: auto;
 }
 
+.titulo{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    font-size: 23px;
+    top: 117px;
+}
+
 /*************************************************** Seccion Mobile Phones ******************************************/
 
 .content__main{
@@ -376,11 +385,5 @@ nav ul li ul a:hover{
     color: hsl(356, 100%, 66%);
 }
 
-.titulo{
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    margin-top: 120px;
-    width: 100%;
-    font-size: 23px;
+
 }
